@@ -1,9 +1,8 @@
 # queue
 #include<stdio.h>
-#include<stdlib.h>
 #define MAX 6
 int queue[MAX];
-int rear,front;
+int rear=0,front=0;
 void insert()
 {
     int data;
